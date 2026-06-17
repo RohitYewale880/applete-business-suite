@@ -1,0 +1,164 @@
+.services-section {
+    padding: 100px 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.services-header {
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+
+.section-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: #EDE8FF;
+    color: #5E3BDB;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+    vertical-align: middle;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.section-desc {
+    font-size: 18px;
+    line-height: 32px;
+    color: #555555;
+    margin: 0;
+}
+
+.service-card {
+    width: 305;
+    height: 337;
+    opacity: 1;
+    gap: 20px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.dark-card {
+    background: #171717;
+}
+
+.service-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.service-top h3 {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #222222;
+}
+
+.service-top i {
+    width: 24.00000000000002;
+    height: 24.00000000000002;
+    opacity: 1;
+}
+
+.service-card p {
+    font-weight: 400;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.dark-card .service-top h3,
+.dark-card .service-top i,
+.dark-card p {
+    color: #FFFFFF;
+}
+
+
+.service-card img {
+    position: relative;
+    width: 100%;
+    height: 159;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    opacity: 1;
+}
+
+
+@media (max-width: 991px) {
+    .services-section {
+        padding: 80px 0;
+    }
+
+    .section-title {
+        font-size: 38px;
+    }
+
+    .section-desc {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .service-top h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services-header {
+        text-align: center;
+        margin: 0 auto 40px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .service-card {
+        padding: 20px;
+    }
+
+    .service-top h3 {
+        font-size: 22px;
+    }
+
+    .service-card p {
+        min-height: auto;
+    }
+
+    .service-card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section-title {
+        font-size: 28px;
+    }
+
+    .section-desc {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .service-card img {
+        height: 180px;
+    }
+}

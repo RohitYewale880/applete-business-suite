@@ -1,0 +1,172 @@
+.how-we-work-section {
+    padding: 100px 0;
+    background: #f3f3f3;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section-header span {
+    font-family: Host Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.work-flow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.work-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.work-card {
+    width: 219;
+    height: 62;
+    opacity: 1;
+    text-align: center;
+    position: relative;
+}
+
+.step-number {
+    position: absolute;
+    top: -5px;
+    left: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555555;
+}
+
+.step-icon-wrapper {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 24px;
+
+    background: #f3f3f3;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.step-icon {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    display: block;
+}
+
+.curve-image {
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 35px;
+}
+
+.work-card h4 {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+    color: #222222;
+}
+
+.work-card p {
+    font-family: Space Grotesk;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+}
+
+@media (max-width: 991px) {
+    .work-flow {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .curve-image {
+        display: none;
+    }
+
+    .work-card {
+        width: 250px;
+    }
+
+    .section-header h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .how-we-work-section {
+        padding: 70px 0;
+    }
+
+    .section-header {
+        margin-bottom: 50px;
+    }
+
+    .section-header h2 {
+        font-size: 32px;
+    }
+
+    .work-flow {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .work-item {
+        display: block;
+    }
+
+    .work-card {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .step-icon-wrapper {
+        width: 82px;
+        height: 82px;
+    }
+
+    .step-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .work-card h4 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .work-card p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,275 @@
+.footer-section {
+    background: #E7E0FF;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Top Curve */
+.footer-section::before {
+    content: "";
+    position: absolute;
+    top: -90px;
+    left: -5%;
+    width: 110%;
+    height: 150px;
+    background: #f3f3f3;
+    border-radius: 0 0 50% 50%;
+}
+
+/* ================= CTA ================= */
+
+.cta-section {
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 2;
+}
+
+.cta-section h2 {
+    color: #222;
+    margin-bottom: 10px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.cta-section span {
+    color: #6246ea;
+}
+
+/* ================= NEWSLETTER ================= */
+
+.newsletter-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.newsletter-box input {
+    width: 350px;
+    height: 52px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.newsletter-box button {
+    height: 52px;
+    padding: 0 28px;
+    border: none;
+    border-radius: 30px;
+    background: #5E3BDB;
+    color: #EDF8FB;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.newsletter-box button span {
+    color: #fff;
+    margin-left: 8px;
+}
+
+/* ================= FOOTER CARD ================= */
+
+.footer-card {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Logo */
+
+.footer-logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.footer-about h5,
+.footer-links h5 {
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.footer-about p,
+.footer-links p {
+    color: #555;
+    font-family: Space Grotesk;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+/* Links */
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+}
+
+.footer-links h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Social */
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.social-icons a {
+    color: #6246ea;
+    font-size: 22px;
+}
+
+/* Bottom */
+
+.footer-bottom {
+    margin-top: 45px;
+    padding-top: 25px;
+    border-top: 1px solid #ececec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 20px;
+    font-family: Space Grotesk;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #000000;
+    font-family: Space Grotesk;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+
+}
+
+.facebook {
+  color: #1877f2;
+}
+
+.instagram {
+  color: #e4405f;
+}
+
+.linkedin {
+  color: #0a66c2;
+}
+
+.twitter {
+  color: #000;
+}
+
+@media (max-width: 991px) {
+
+    .footer-section {
+        padding: 70px 0;
+    }
+
+    .cta-section h2 {
+        font-size: 36px;
+    }
+
+    .footer-card {
+        padding: 40px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .cta-section h2 {
+        font-size: 28px;
+    }
+
+    .newsletter-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter-box input,
+    .newsletter-box button {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .footer-card {
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .footer-logo {
+        width: 170px;
+    }
+
+    .footer-about,
+    .footer-links {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer-bottom div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
