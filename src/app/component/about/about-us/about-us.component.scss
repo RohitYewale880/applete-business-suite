@@ -138,10 +138,82 @@
     transform: scale(1.1);
 }
 
+@media (max-width: 1200px) {
+
+    .about-image-wrapper {
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+        margin: auto;
+    }
+
+    .image-bg,
+    .about-image {
+        width: 380px;
+        height: 255px;
+    }
+
+    .experience-card {
+        width: 180px;
+        padding: 25px;
+        top: 220px;
+    }
+
+    .about-title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .about-desc {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
 @media (max-width: 991px) {
+
+    .about-section {
+        padding: 80px 0;
+    }
+
     .about-content {
         padding-left: 0;
-        margin-top: 80px;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .about-image-wrapper {
+        width: 100%;
+        max-width: 450px;
+        height: 360px;
+        margin: auto;
+    }
+
+    .image-bg {
+        width: 340px;
+        height: 230px;
+        left: 18px;
+        top: 18px;
+    }
+
+    .about-image {
+        width: 340px;
+        height: 230px;
+    }
+
+    .experience-card {
+        width: 170px;
+        padding: 22px;
+        top: 190px;
+        left: 0;
+    }
+
+    .experience-card h2 {
+        font-size: 38px;
+    }
+
+    .experience-card p {
+        font-size: 14px;
     }
 
     .about-title {
@@ -149,7 +221,183 @@
         line-height: 45px;
     }
 
+    .about-desc {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .feature-list {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+    }
+
+    .app-btn-primary {
+        margin: auto;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .about-section {
+        padding: 60px 0;
+    }
+
+    .about-image-wrapper {
+        width: 100%;
+        max-width: 360px;
+        height: 310px;
+        margin: auto;
+    }
+
+    .image-bg {
+        width: 290px;
+        height: 200px;
+        left: 15px;
+        top: 15px;
+    }
+
+    .about-image {
+        width: 290px;
+        height: 200px;
+    }
+
+    .experience-card {
+        width: 160px;
+        padding: 20px;
+        top: 165px;
+        left: 0;
+    }
+
+    .experience-card h2 {
+        font-size: 34px;
+    }
+
+    .experience-card p {
+        font-size: 13px;
+    }
+
+    .about-content {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .about-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .about-desc {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
     .feature-list {
         grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .feature-item {
+        justify-content: center;
+    }
+
+    .app-btn-primary {
+        width: auto;
+        padding: 0 28px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .about-section {
+        padding: 50px 0;
+    }
+
+    .about-image-wrapper {
+        max-width: 300px;
+        height: 260px;
+    }
+
+    .image-bg {
+        width: 240px;
+        height: 170px;
+        left: 10px;
+        top: 10px;
+    }
+
+    .about-image {
+        width: 240px;
+        height: 170px;
+    }
+
+    .experience-card {
+        width: 145px;
+        padding: 16px;
+        top: 140px;
+        left: 0;
+    }
+
+    .experience-card h2 {
+        font-size: 28px;
+    }
+
+    .experience-card p {
+        font-size: 12px;
+    }
+
+    .about-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .about-desc {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .feature-item span {
+        font-size: 14px;
+    }
+
+    .app-btn-primary {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .about-image-wrapper {
+        max-width: 260px;
+        height: 230px;
+    }
+
+    .image-bg,
+    .about-image {
+        width: 210px;
+        height: 150px;
+    }
+
+    .experience-card {
+        width: 130px;
+        padding: 14px;
+        top: 120px;
+    }
+
+    .experience-card h2 {
+        font-size: 24px;
+    }
+
+    .experience-card p {
+        font-size: 11px;
+    }
+
+    .about-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .about-desc {
+        font-size: 13px;
+        line-height: 22px;
     }
 }
